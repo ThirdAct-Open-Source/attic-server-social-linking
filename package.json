@@ -4,7 +4,8 @@
     "description": "Several plugins to help with linking/unlinking social accounts",
     "main": "lib/Atticfile.js",
     "publishConfig": {
-        "registry": "https://registry.npmjs.org"
+        "registry": "https://registry.npmjs.org",
+      "access": "public"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
