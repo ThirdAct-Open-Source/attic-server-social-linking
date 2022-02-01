@@ -1,0 +1,53 @@
+{
+    "name": "@thirdact/attic-server-social-linking",
+    "version": "1.0.0",
+    "description": "Several plugins to help with linking/unlinking social accounts",
+    "main": "lib/Atticfile.js",
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "grunt",
+        "prepare": "grunt"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ThirdAct-Open-Source/attic-server-social-linking.git"
+    },
+    "contributors": [
+        {
+            "name": "Third Act Team",
+            "email": "zach@thirdact.digital",
+            "url": "https://thirdact.digital"
+        }
+    ],
+    "license": "AGPL-3.0",
+    "bugs": {
+        "url": "https://github.com/ThirdAct-Open-Source/attic-server-social-linking/issues"
+    },
+    "devDependencies": {
+        "@types/bcrypt": "^3.0.0",
+        "@types/node-fetch": "^2.5.8",
+        "@znetstar/attic-common": "^3.19.0",
+        "grunt": "^1.3.0",
+        "grunt-contrib-clean": "^2.0.0",
+        "grunt-contrib-copy": "^1.0.0",
+        "grunt-jsdoc": "^2.4.1",
+        "grunt-ts": "^6.0.0-beta.22",
+        "grunt-typedoc": "^0.2.4",
+        "ts-node": "^9.1.1",
+        "typedoc": "^0.20.33",
+        "typescript": "^4.2.3"
+    },
+    "homepage": "https://github.com/ThirdAct-Open-Source/attic-server-social-linking#readme",
+    "peerDependencies": {
+        "@znetstar/attic-common": "^3"
+    },
+    "dependencies": {
+        "@types/lodash": "^4.14.168",
+        "lodash": "^4.17.21",
+        "node-fetch": "^2.6.1",
+        "tslib": "^2.0.1"
+    }
+}

@@ -1,0 +1,10 @@
+ignore
+.DS_STORE
+.vscode
+.tscache
+node_modules
+src/
+tscommand*
+.idea
+data
+.env
